@@ -1,22 +1,22 @@
 {
-  "name": "airlinev1",
-  "version": "0.0.1",
-  "description": "Version 1 of ACME air domain model",
-  "scripts": {
-    "test": "mocha --recursive"
-  },
-  "author": "Will Carpenter",
-  "email": "dev.wtc3@gmail.com",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "composer-admin": "latest",
-    "composer-client": "latest",
-    "composer-common": "latest",
-    "composer-connector-embedded": "latest",
-    "chai": "latest",
-    "eslint": "latest",
-    "istanbul": "latest",
-    "mkdirp": "latest",
-    "mocha": "latest"
-  }
+	"name": "airlinev1",
+	"version": "0.0.1",
+	"description": "Version 1 of ACME air domain model",
+	"scripts": {
+		"test": "mocha --recursive"
+	},
+	"author": "Will Carpenter",
+	"email": "dev.wtc3@gmail.com",
+	"license": "Apache-2.0",
+	"devDependencies": {
+		"composer-admin": "latest",
+		"composer-client": "latest",
+		"composer-common": "latest",
+		"composer-connector-embedded": "latest",
+		"chai": "latest",
+		"eslint": "latest",
+		"istanbul": "latest",
+		"mkdirp": "latest",
+		"mocha": "latest"
+	}
 }

@@ -1,18 +1,16 @@
 namespace org.acme.airline.flight
-
 import org.acme.airline.aircraft.Aircraft
 
-
 asset Flight identified by flightNumber {
-  o String flightNumber
-  o Route route
-  o String[] aliasFlightNumber
-  --> Aircraft aircraft optional
+	o String flightNumber
+	o Route route
+	o String[] aliasFlightNumber
+	--> Aircraft aircraft optional
 }
 
 concept Route {
-  o String origin
-  o String destination
+  o String origin regex=/[A-Z][A-Z][A-Z]/
+  o String destination regex=/[A-Z][A-Z][A-Z]/
   o DateTime schedule
 }
 
