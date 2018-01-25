@@ -1,6 +1,6 @@
 {
-	"name": "airlinev1",
-	"version": "0.0.1",
+	"name": "airlinev4",
+	"version": "0.4.0",
 	"description": "Version 1 of ACME air domain model",
 	"scripts": {
 		"test": "mocha --recursive"
@@ -20,6 +20,7 @@
 		"mocha": "latest"
 	},
 	"dependencies": {
+		"chai": "^4.1.2",
 		"gitignore": "^0.6.0"
 	}
 }
